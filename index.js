@@ -5,7 +5,7 @@ const DAY_MILLI = HOUR_MILLI * 24;
 const WEEK_MILLI = DAY_MILLI * 7;
 
 const JAPAN_TIMEZONE = "+09:00";
-const LANDING_DATE = new Date("2023-12-27T16:40" + JAPAN_TIMEZONE);
+const LANDING_DATE = new Date("2023-12-27T17:32" + JAPAN_TIMEZONE);
 
 const timerDisplayElement = document.querySelector("#timer-display");
 const untilElement = document.querySelector("#until");
