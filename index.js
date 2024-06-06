@@ -5,7 +5,7 @@ const DAY_MILLI = HOUR_MILLI * 24;
 const WEEK_MILLI = DAY_MILLI * 7;
 
 const JAPAN_TIMEZONE = "+09:00";
-const LANDING_DATE = new Date("2023-12-27T17:32" + JAPAN_TIMEZONE);
+const LANDING_DATE = new Date("2024-06-30T15:25" + JAPAN_TIMEZONE);
 
 const timerDisplayElement = document.querySelector("#timer-display");
 const untilElement = document.querySelector("#until");
@@ -13,12 +13,14 @@ const fullTimerDisplayElement = document.querySelector("#full-timer-display");
 
 // <time> until ...
 const events = [
-  "I get to see you again", "I can kiss you again",
-  "we can hold hands", "we can hug", "I land in Japan",
-  "you can make fun of my Pyjamas", "I may see your cute face",
-  "I can hold you in my arms", "we can cuddle", "we will ski",
-  "I will win at Jianzi", "I can tickle you", "we can share a meal together",
-  "I'll lose your water bottle again", "I can fall asleep with you"
+  "I get to see you again", "I can kiss you again", "we can hold hands again",
+  "we can hug", "I land in Japan", "you can make fun of my Pyjamas",
+  "I may see your cute face", "I can hold you in my arms", "we can cuddle",
+  "I win at Jianzi", "I can tickle you", "we can share a meal together",
+  "I lose your water bottle again", "I can fall asleep with you",
+  "we can study together", "I can cook for you again",
+  "we can listen to music together", "we can watch our movies together",
+  "we can whisper to each other again"
 ];
 
 /**
