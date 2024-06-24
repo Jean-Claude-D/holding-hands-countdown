@@ -6,15 +6,14 @@
 
 html {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 5em;
     font-weight: bold;
     height: 100%;
     background-color: #F5D1CF;
+    text-align: center;
 }
 
 body {
     height: 100%;
-    min-width: max-content;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -22,10 +21,50 @@ body {
 }
 
 p {
-    width: max-content;
     margin: 0px 25px;
 }
 
-#full-timer-display {
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) {
+  html {
+    font-size: 1.5em;
+  }
+
+  #full-timer-display {
+    font-size: 0.75em;
+  }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) {
+  html {
+    font-size: 3.5em;
+  }
+
+  #full-timer-display {
+    font-size: 0.6em;
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+  html {
+    font-size: 4em;
+  }
+
+  #full-timer-display {
     font-size: 0.5em;
+  }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+  html {
+    font-size: 5em;
+  }
+
+  #full-timer-display {
+    font-size: 0.5em;
+  }
 }
