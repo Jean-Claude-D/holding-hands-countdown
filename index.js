@@ -20,7 +20,7 @@ const events = [
   "I lose your water bottle again", "I can fall asleep with you",
   "we can study together", "I can cook for you again",
   "we can listen to music together", "we can watch our movies together",
-  "we can whisper to each other again"
+  "we can whisper to each other again", "I can sleep on the floor",
 ];
 
 /**
