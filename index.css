@@ -1,27 +1,27 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 html {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    height: 100%;
-    background-color: #F5D1CF;
-    text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  height: 100%;
+  background-color: #F5D1CF;
+  text-align: center;
 }
 
 body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 p {
-    margin: 0px 25px;
+  margin: 0px 25px;
 }
 
 
