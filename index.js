@@ -4,8 +4,8 @@ const HOUR_MILLI = MINUTE_MILLI * 60;
 const DAY_MILLI = HOUR_MILLI * 24;
 const WEEK_MILLI = DAY_MILLI * 7;
 
-const JAPAN_TIMEZONE = "+09:00";
-const LANDING_DATE = new Date("2024-06-30T15:25" + JAPAN_TIMEZONE);
+const CHINA_TIMEZONE = "+08:00";
+const LANDING_DATE = new Date("2024-08-26T13:00" + CHINA_TIMEZONE);
 
 const timerDisplayElement = document.querySelector("#timer-display");
 const untilElement = document.querySelector("#until");
