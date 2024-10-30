@@ -14,13 +14,13 @@ const fullTimerDisplayElement = document.querySelector("#full-timer-display");
 // <time> until ...
 const events = [
   "I get to see you again", "I can kiss you again", "we can hold hands again",
-  "we can hug", "I land in Japan", "you can make fun of my Pyjamas",
+  "we can hug", "You land in Montreal", "you can make fun of my Pyjamas",
   "I may see your cute face", "I can hold you in my arms", "we can cuddle",
-  "I win at Jianzi", "I can tickle you", "we can share a meal together",
-  "I lose your water bottle again", "I can fall asleep with you",
+  "I win at Badminton", "I can tickle you", "we can share a meal together",
+  "You lose your water bottle again", "I can fall asleep with you",
   "we can study together", "I can cook for you again",
   "we can listen to music together", "we can watch our movies together",
-  "we can whisper to each other again", "I can sleep on the floor",
+  "we can whisper to each other again", "You can sleep on the floor",
 ];
 
 /**
