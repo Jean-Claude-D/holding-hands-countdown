@@ -5,7 +5,8 @@ const DAY_MILLI = HOUR_MILLI * 24;
 const WEEK_MILLI = DAY_MILLI * 7;
 
 const EST_TIMEZONE = "-05:00";
-const LANDING_DATE = new Date("2024-12-19T17:05" + EST_TIMEZONE);
+const JST_TIMEZONE = "+09:00";
+const LANDING_DATE = new Date("2025-03-21T15:00" + JST_TIMEZONE);
 
 const timerDisplayElement = document.querySelector("#timer-display");
 const untilElement = document.querySelector("#until");
@@ -14,13 +15,16 @@ const fullTimerDisplayElement = document.querySelector("#full-timer-display");
 // <time> until ...
 const events = [
   "I get to see you again", "I can kiss you again", "we can hold hands again",
-  "we can hug", "You land in Montreal", "you can make fun of my Pyjamas",
+  "we can hug", "I land in Tokyo", "you can make fun of my Pyjamas",
   "I may see your cute face", "I can hold you in my arms", "we can cuddle",
   "I win at Badminton", "I can tickle you", "we can share a meal together",
-  "You lose your water bottle again", "I can fall asleep with you",
-  "we can study together", "I can cook for you again",
+  "you lose your water bottle again", "I can fall asleep with you",
+  "I can cook for you again", "we can drink together (but not too much)",
   "we can listen to music together", "we can watch our movies together",
-  "we can whisper to each other again", "You can sleep on the floor",
+  "we can whisper to each other again", "I can sleep on the floor",
+  "I can tell you how much I love you", "you show me how to do yoga",
+  "I bring you back your diapers", "I can taste your spicy tofu pieces",
+  "I can give you a good massage", "you inevitably notice me first, in the airport",
 ];
 
 /**
